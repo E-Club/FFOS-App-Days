@@ -5,82 +5,88 @@
 	box-sizing: border-box;
 	
 	/* Better text styling */
-	font: bold 14px Arial, sans-serif;
-}
-
-/* Finally adding some IE9 fallbacks for gradients to finish things up */
-
-/* A nice BG gradient */
-html {
-	height: 100%;
-	background: white;
-	background: radial-gradient(circle, #fff 20%, #ccc);
-	background-size: cover;
+	font: bold 130% Arial, sans-serif;
 }
 
 /* Using box shadows to create 3D effects */
 #calculator {
-	width: 325px;
-	height: auto;
+	width: 100%;
+	height: 100%;
 	
-	margin: 100px auto;
-	padding: 20px 20px 9px;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 1%;
 	
-	background: #9dd2ea;
-	background: linear-gradient(#9dd2ea, #8bceec);
-	border-radius: 3px;
-	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+	background: #535151;
+	background: linear-gradient(#535151, #535151);
+	border-radius: 2%;
+	box-shadow: 0px 4px #1a1a1a, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+.top
+{
+	padding-top: 1%;
 }
 
 /* Top portion */
 .top span.clear {
-	float: left;
+	float : left;
+	left: 5%;
+	width: 20%;
+	height: 10%;
+	text-align: center;
+	line-height: 150%;
 }
 
 /* Inset shadow on the screen to create indent */
 .top .screen {
-	height: 40px;
-	width: 212px;
-	
-	float: right;
-	
-	padding: 0 10px;
+	height: 10%;
+	width: 70%;
+	float : right;
+
 	
 	background: rgba(0, 0, 0, 0.2);
 	border-radius: 3px;
 	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
 	
 	/* Typography */
-	font-size: 17px;
-	line-height: 40px;
+	font-size: 130%;
+	line-height: 150%;
 	color: white;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-shadow: 20% 20% 40% rgba(0, 0, 0, 0.2);
 	text-align: right;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 /* Clear floats */
 .keys, .top {overflow: hidden;}
 
+.keys
+{
+	padding-bottom: 100%;
+}
+
 /* Applying same to the keys */
-.keys span, .top span.clear {
+.keys span {
 	float: left;
 	position: relative;
-	top: 0;
+	top: 2%;
 	
 	cursor: pointer;
 	
-	width: 66px;
-	height: 36px;
+	width: 20%;
+	height: 12%;
+
+
 	
 	background: white;
 	border-radius: 3px;
 	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
 	
-	margin: 0 7px 11px 0;
+	margin: 8% 6% 0% 0%;
 	
 	color: #888;
-	line-height: 36px;
+	line-height: 170%;
 	text-align: center;
 	
 	/* prevent selection of text inside keys */
