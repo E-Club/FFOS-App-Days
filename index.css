@@ -54,7 +54,7 @@
 	line-height: 150%;
 	color: white;
 	text-shadow: 20% 20% 40% rgba(0, 0, 0, 0.2);
-	text-align: center;
+	text-align: right;
 	letter-spacing: 2px;
 }
 
@@ -86,7 +86,7 @@
 	margin: 8% 6% 0% 0%;
 	
 	color: #888;
-	line-height: 150%;
+	line-height: 250%;
 	text-align: center;
 	
 	/* prevent selection of text inside keys */
