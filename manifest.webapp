@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "name": "Our App",
+  "launch_path": "/index.html",
+  "fullscreen": "true",
+  "icons": {
+    "60": "/images/icon_016.png",
+    "128": "/images/icon_128.png"
+  },
+  "developer": {
+    "name": "E-Club",
+    "url": "N/A"
+  },
+  "description": "Hack-a-Thon app for FFOSAD",
+  "default_locale": "en"
+}
