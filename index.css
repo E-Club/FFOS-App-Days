@@ -16,23 +16,22 @@
     position: relative;
     left:0;
     right: 0;
-    top: 0;
+    top: 0%;
     bottom: 0;
     margin: auto;
 
-	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 0%;
-	
 	background: #FF9500;
 	background: linear-gradient(#FF9500, #FFCB00);
-	border-radius: 2%;
+	border-color:#002147;
+	border-style: solid;
+	border-width: 10px;
 	box-shadow: 0px 4px #1a1a1a, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
 .top
 {
-	padding-top: 1%;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 /* Top portion */
@@ -71,6 +70,9 @@
 .keys
 {
 	padding-bottom: 0%;
+	margin-top: 0%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 /* Applying same to the keys */
@@ -83,7 +85,6 @@
 	
 	width: 20%;
 	height: 12%;
-
 
 	
 	background: white;
