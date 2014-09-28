@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "name": "Our App",
+  "name": "Line Calculator",
   "launch_path": "/index.html",
   "fullscreen": "true",
   "icons": {
