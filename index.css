@@ -1,10 +1,8 @@
-/* Basic reset */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	
-	/* Better text styling */
 	font: bold 110% Arial, sans-serif;
 }
 
@@ -33,7 +31,7 @@
 	margin-right: 5%;
 }
 
-/* Top portion */
+
 .top span.clear {
 	float : left;
 	left: 5%;
