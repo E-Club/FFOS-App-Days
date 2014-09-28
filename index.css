@@ -16,8 +16,9 @@
     left:0;
     right: 0;
     top: 0%;
-    bottom: 0;
+    bottom: 0%;
     margin: auto;
+
 
 	background: #FF9500;
 	background: linear-gradient(#FF9500, #FFCB00);
@@ -38,9 +39,11 @@
 	float : left;
 	left: 5%;
 	width: 20%;
-	height: 10%;
+	height: 9%;
+	border-radius: 5%;
 	text-align: center;
 	line-height: 150%;
+	box-shadow: 0px 4px #1a1a1a, 0px 10px 15px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -69,7 +72,7 @@
 
 .keys
 {
-	padding-bottom: 0%;
+	padding-bottom: 10%;
 	margin-top: 0%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -106,20 +109,21 @@
 
 
 .keys span.operator {
-	background: #FFF0F5;
+	background: #0095DD;
+	color: white;
 	margin-right: 0;
 }
 
 .keys span.eval {
 	background: #00cc6a;
-	box-shadow: 0px 4px #00cc6a;
-	color: #888e5f;
+	color: white;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);	
 }
 
 .top span.clear {
-	background: #0095DD;
-	box-shadow: 0px 4px #00539F;
+	background: #00539F;
 	color: white;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
 }
 
 
