@@ -1,6 +1,5 @@
 var keys = document.querySelectorAll('#calculator span');
 var operators = ['+','-','*','/'];
-var decimal = false;
 
 for(var i =0; i <keys.length; i++)
 {
@@ -18,16 +17,11 @@ for(var i =0; i <keys.length; i++)
 		else if(btnVal == '=')
 		{
 			var equation = inputVal;
-			decimal = false;
-			input.innerHTML = eval(equation);
+			if(eval(equation)) input.innerHTML = eval(equation);
 		}
 		else if(btnVal == '.')
 		{
-			if(!decimal)
-			{
-				input.innerHTML += btnVal;
-				decimal = true;
-			}
+			input.innerHTML += btnVal;
 		}
 		else
 		{
