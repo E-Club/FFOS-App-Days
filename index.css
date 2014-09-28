@@ -45,7 +45,7 @@
 
 }
 
-/* Inset shadow on the screen to create indent */
+
 .top .screen {
 	height: 10%;
 	width: 74%;
@@ -56,7 +56,7 @@
 	border-radius: 3px;
 	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
 	
-	/* Typography */
+	
 	font-size: 100%;
 	line-height: 150%;
 	color: white;
@@ -65,7 +65,7 @@
 	letter-spacing: 2px;
 }
 
-/* Clear floats */
+
 .keys, .top {overflow: hidden;}
 
 .keys
@@ -76,7 +76,7 @@
 	margin-right: 5%;
 }
 
-/* Applying same to the keys */
+
 .keys span {
 	float: left;
 	position: relative;
@@ -98,15 +98,14 @@
 	line-height: 250%;
 	text-align: center;
 	
-	/* prevent selection of text inside keys */
+
 	user-select: none;
 	
-	/* Smoothing out hover and active states using css3 transitions */
+
 	transition: all 0.2s ease;
 }
 
-/* Remove right margins from operator keys */
-/* style different type of keys (operators/evaluate/clear) differently */
+
 .keys span.operator {
 	background: #FFF0F5;
 	margin-right: 0;
@@ -124,7 +123,7 @@
 	color: white;
 }
 
-/* Simulating "pressed" effect on active state of the keys by removing the box-shadow and moving the keys down a bit */
+
 .keys span:active {
 	box-shadow: 0px 0px #6b54d3;
 	top: 4px;
