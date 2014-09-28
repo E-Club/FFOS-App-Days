@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	font: bold 110% Arial, sans-serif;
+}
+
+#calculator {
+
+	
+    position: relative;
+    left:0;
+    right: 0;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+
+
+	background: #FF9500;
+	background: linear-gradient(#FF9500, #FFCB00);
+	border-color:#002147;
+	border-style: solid;
+	border-width: 2%;
+	box-shadow: 0px 4px #1a1a1a, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+.top
+{
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+.top span.clear {
+	float : left;
+	left: 5%;
+	width: 20%;
+	height: 9%;
+	border-radius: 5%;
+	text-align: center;
+	line-height: 150%;
+	box-shadow: 0px 4px #1a1a1a, 0px 10px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.top .screen {
+	height: 10%;
+	width: 74%;
+	float : right;
+
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	
+	
+	font-size: 100%;
+	line-height: 150%;
+	color: white;
+	text-shadow: 20% 20% 40% rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 2px;
+}
+
+
+.keys, .top {overflow: hidden;}
+
+.keys
+{
+	padding-bottom: 10%;
+	margin-top: 0%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+.keys span {
+	float: left;
+	position: relative;
+	top: 2%;
+	
+	cursor: pointer;
+	
+	width: 20%;
+	height: 12%;
+
+	
+	background: white;
+	border-radius: 5%;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	
+	margin: 8% 6% 0% 0%;
+	
+	color: #888;
+	line-height: 250%;
+	text-align: center;
+}
+
+
+.keys span.operator {
+	background: #0095DD;
+	color: white;
+	margin-right: 0;
+}
+
+.keys span.eval {
+	background: #00cc6a;
+	color: white;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);	
+}
+
+.top span.clear {
+	background: #00539F;
+	color: white;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.keys span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.keys span.eval:active {
+	box-shadow: 0px 0px #00cc6a;
+	top: 4px;
+}
+
+.top span.clear:active {
+	
+	background: #002147;
+	box-shadow: 0px 0px #002147;
+}
